@@ -28,8 +28,8 @@ public class AnagramChecker1 {
     }
 
     public static void main(String[] args) {
-        String s1 = "fajar";
-        String s2 = "jafar";
+        String s1 = "fredianto";
+        String s2 = "diantofre";
         System.out.println(isAnagram(s1,s2));
     }
 
