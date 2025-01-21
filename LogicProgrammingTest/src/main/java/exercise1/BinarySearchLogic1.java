@@ -4,7 +4,6 @@ public class BinarySearchLogic1 {
 
     //BinarySearch
 
-
     int binarySearch(int[] arr, int target){
         int left = 0;
         int right = arr.length;
@@ -35,7 +34,6 @@ public class BinarySearchLogic1 {
         }else {
             System.out.println("data tidak ditemukan");
         }
-
         System.out.println(arr.length);
 //        System.out.println(arr[7]);
     }

@@ -4,7 +4,6 @@ public class PalindromeLogic1 {
 
     // Check Palindrome Text
 
-
     static boolean isPalindromeWithBuffer(String text){
         StringBuffer buffer = new StringBuffer(text);
         buffer.reverse();
