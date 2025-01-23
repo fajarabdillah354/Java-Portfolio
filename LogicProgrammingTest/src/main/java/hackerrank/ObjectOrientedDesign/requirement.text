@@ -1,0 +1,4 @@
+// Implementasikan sistem manajemen perpustakaan sederhana dengan class:
+// - Book (id, title, author)
+// - Library (addBook, removeBook, findBookByTitle)
+// Terapkan proper encapsulation dan exception handling
