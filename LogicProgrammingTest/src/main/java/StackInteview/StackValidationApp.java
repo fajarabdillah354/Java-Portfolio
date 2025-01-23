@@ -24,7 +24,6 @@ public class StackValidationApp {
             if (matchingBrackets.containsKey(c)) {
                 // mengecek kalo stack yang paling atas tidak kosong dan stack yang di peek (diambil tanpa menghapus) itu sama dengan brackets yang di berikan di parameter
                 // maka stack yang paling atas kita ambil
-                // Check if the top of the stack matches the expected opening bracket
                 if (!customStack.isEmpty() && customStack.peek() == matchingBrackets.get(c)) {
                     // ambil stack top
                     customStack.pop();
@@ -32,12 +31,10 @@ public class StackValidationApp {
                     return false;
                 }
             } else {
-                // Push opening brackets onto the stack
                 // push opening brackets kedalam stack
                 customStack.push(c);
             }
         }
-
         // The stack should be empty if all brackets are balanced
         // kembalikan method isEmpty() karna jika semua brackets seimbang misal { } / ( )
         return customStack.isEmpty();
